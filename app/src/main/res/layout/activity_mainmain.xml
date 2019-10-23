@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mainmain">
+
+    <TextView
+        android:id="@+id/nim27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM       : "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/nama27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nim27"
+        android:text="Nama  : "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/nilai27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama27"
+        android:text="Nilai : "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/keterangan27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nilai27"
+        android:text="KETERANGAN : "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/nimku"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nim27"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/namaku"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nim27"
+        android:layout_toRightOf="@id/nama27"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/nilaiku"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama27"
+        android:layout_toRightOf="@id/nilai27"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/keteranganku"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nilai27"
+        android:layout_toRightOf="@id/keterangan27"
+        android:textSize="24sp" />
+
+</RelativeLayout>
